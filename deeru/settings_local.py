@@ -1,0 +1,6 @@
+DEBUG = True
+ALLOWED_HOSTS =['*']
+CUSTOM_EXPRESSION = []
+CUSTOM_APPS =[
+
+]
