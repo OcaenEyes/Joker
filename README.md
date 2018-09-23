@@ -31,8 +31,9 @@
 
 DeerU 是一个开源博客系统，它基于Django开发。  
 
-它提供了丰富的json数据接口，前端开发人员可以不依赖Django模板，方便的开发主题，实现前后端分离。
+它提供了丰富的json数据接口（需安装[api插件](https://github.com/gojuukaze/deeru_plugin_theme)），前端开发人员可以不依赖Django模板，方便的开发主题，实现前后端分离。
 ___
+
 
 依赖
 ---
@@ -51,6 +52,7 @@ ___
 * 项目文档 ：[https://deeru.readthedocs.io](https://deeru.readthedocs.io)
 * 插件与主题 ：[https://github.com/gojuukaze/deeru_plugin_theme](https://github.com/gojuukaze/deeru_plugin_theme)
 * GITHUB ：[https://github.com/gojuukaze/DeerU](https://github.com/gojuukaze/DeerU)
+* DEMO ：[https://www.ikaze.cn](https://www.ikaze.cn)
 * [安装](#安装)
 * [初始化](#初始化)
 * [运行](#运行)
@@ -82,6 +84,8 @@ ___
     git clone -b dev https://github.com/gojuukaze/DeerU.git
     cd DeerU
     pip install -r requirements.txt
+    
+    # 创建 deeru/settings_local.py , deeru/urls_local.py ，具体参考文档
 ```
 
 初始化
@@ -116,7 +120,7 @@ DeerU使用 [GNU General Public License v3.0 协议](https://github.com/gojuukaz
 >
 > https://froala.com/wysiwyg-editor/pricing  
 >
->（ 你可以自己更换其他编辑器，我也会在之后内置一些富文本编辑器的替代方案 ）
+> 你可以自己更换其他编辑器（参照文档 [富文本编辑器](http://deeru.readthedocs.io/zh_CN/master/user_guide/rich_text_editor.html) ），我也会在之后内置一些富文本编辑器的替代方案 
 
 
 截图
